@@ -4,8 +4,8 @@
     "description": "sanikava-db.mongo made for all device user its like quick.db but in mongodb because quick.db will not work for all",
     "main": "index.js",
     "scripts": {
-        "test": "node app",
-        "start": "node index"
+        "test": "node app.js",
+        "start": "node index.js"
     },
     "keywords": [],
     "author": "sanikava",
