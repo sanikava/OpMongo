@@ -1,10 +1,10 @@
 # SanikavaDB
 SanikavaDB Mongo wrapper for new coders.
 
-![SanikavaDB](https://nodei.co/npm/OpMongo.png)
+![SanikavaDB](https://nodei.co/npm/opmongo.png)
 
 # Documentation
-**[SanikavaDB](https://OpMongo.js.org)**
+**[SanikavaDB](https://opmongo.js.org)**
 
 # Features
 - Beginner friendly
@@ -23,7 +23,7 @@ SanikavaDB Mongo wrapper for new coders.
 # Example
 
 ```js
-const { OP } = require("OpMongo");
+const { OP } = require("opmongo");
 const db = new OP("mongodb://localhost/SanikavaDB");
 
 db.on("ready", () => {
@@ -38,13 +38,13 @@ db.get("foo").then(console.log);
 
 # Links
 - **[Discord Support Server](https://discord.gg/bG7875u8qA)**
-- **[Documentation](https://OpMongo.js.org)**
-- **[GitHub](https://github.com/sanikava/OpMongo)**
+- **[Documentation](https://opmongo.js.org)**
+- **[GitHub](https://github.com/sanikava/opmongo)**
 
 # Example
 
 ```js
-const { OP } = require("OpMongo");
+const { OP } = require("opmongo");
 const db = new OP("mongodb://localhost/SanikavaDB");
 
 db.set("player.name","Sanikava") //[this is setting variable in json)]

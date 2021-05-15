@@ -1,15 +1,15 @@
-**OpMongo made for all device user its like quick.db but with mongodb because quick.db will not work for all**
+**opmongo made for all device user its like quick.db but with mongodb because quick.db will not work for all**
 
-![SanikavaDB](https://nodei.co/npm/OpMongo.png)
+![SanikavaDB](https://nodei.co/npm/opmongo.png)
 
 # Documentation
-**[OpMongo](https://OpMongo.js.org)**
+**[opmongo](https://opmongo.js.org)**
 
 
 **How to use?**
 Note you need to use await to get output otherwise it will show [Object Object] else undefined
 ```js
-const { OP } = require("sanikava-db.mongo");
+const { OP } = require("opmongo");
 const db = new OP("mongodb://localhost/SanikavaDB");
 
 
@@ -36,5 +36,5 @@ db.has("player.points") //[check value]
 
 # Links
 - **[Discord Support Server](https://discord.gg/bG7875u8qA)**
-- **[Documentation](https://OpMongo.js.org)**
-- **[GitHub](https://github.com/sanikava/OpMongo)**
+- **[Documentation](https://opmongo.js.org)**
+- **[GitHub](https://github.com/sanikava/opmongo)**
