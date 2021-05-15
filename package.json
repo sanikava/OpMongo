@@ -1,0 +1,17 @@
+{
+    "name": "sanikava-db.mongo",
+    "version": "1.0.0",
+    "description": "sanikava-db.mongo made for all device user its like quick.db but in mongodb because quick.db will not work for all",
+    "main": "index.js",
+    "scripts": {
+        "test": "node app",
+        "start": "node index"
+    },
+    "keywords": [],
+    "author": "sanikava",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "mongoose": "5.11.15"
+    }
+}
