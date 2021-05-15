@@ -7,6 +7,7 @@
 
 
 **How to use?**
+Note you need to use await to get output otherwise it will show [Object Object] else undefined
 ```js
 const { OP } = require("sanikava-db.mongo");
 const db = new OP("mongodb://localhost/SanikavaDB");
@@ -26,6 +27,10 @@ db.push("player.items","sword") //[you can add new things to array by this you c
 
 db.subtract("player.points",1) //[subtract value or points]
 //-> It will subtract points of user
+
+db.has("player.points") //[check value]
+//-> it will show you value there or not 
+//-> OutPut= true/false
 ```
 
 
