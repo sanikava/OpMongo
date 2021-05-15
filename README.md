@@ -1,15 +1,15 @@
-**sanikava-db.mongo made for all device user its like quick.db but in json because quick.db will not work for all**
+**OpMongo made for all device user its like quick.db but with mongodb because quick.db will not work for all**
 
-![SanikavaDB](https://nodei.co/npm/sanikava.db.mongo.png)
+![SanikavaDB](https://nodei.co/npm/OpMongo.png)
 
 # Documentation
-**[SanikavaDB](https://sanikava-db-mongo.js.org)**
+**[OpMongo](https://OpMongo.js.org)**
 
 
 **How to use?**
 ```js
-const { Database } = require("sanikava-db.mongo");
-const db = new Database("mongodb://localhost/SanikavaDB");
+const { OP } = require("sanikava-db.mongo");
+const db = new OP("mongodb://localhost/SanikavaDB");
 
 
 db.set("player.name","Sanikava") //[this is setting variable in json)]
@@ -31,5 +31,5 @@ db.subtract("player.points",1) //[subtract value or points]
 
 # Links
 - **[Discord Support Server](https://discord.gg/bG7875u8qA)**
-- **[Documentation](https://sanikava-db-mongo.js.org)**
-- **[GitHub](https://github.com/sanikava/sanikava-db.mongo)**
+- **[Documentation](https://OpMongo.js.org)**
+- **[GitHub](https://github.com/sanikava/OpMongo)**
