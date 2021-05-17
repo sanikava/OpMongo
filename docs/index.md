@@ -3,10 +3,13 @@ SanikavaDB Mongo wrapper for new coders.
 
 ![SanikavaDB](https://nodei.co/npm/opmongo.png)
 
-# Documentation
-**[SanikavaDB](https://opmongo.js.org)**
+# Documentation - 
+**[OpMongo Documentation](https://opmongo.js.org)**
 
-# Features
+# What is OpMongo?
+- OpMongo is a new Mongo wrapper maded for people who are new to coding. OpMongo is maded in a way so people can use it easily without any confusion, and even if you have any confusion you can ask about it in our Discord Support Server. 
+
+# Features -
 - Beginner friendly
 - Easy to use
 - Very similar to **[quick.db](https://npmjs.com/package/quick.db)**
@@ -20,7 +23,7 @@ SanikavaDB Mongo wrapper for new coders.
 - Quick and Easy setup
 - Open Source 
 
-# Example
+<h1> Example </h1> <p> How to Connect? </p>
 
 ```js
 const { OP } = require("opmongo");
@@ -61,32 +64,31 @@ db.subtract("player.points",1) //[subtract value or points]
 
 
 
-# Links
+# Links -
 - **[Discord Support Server](https://discord.gg/bG7875u8qA)**
 - **[Documentation](https://opmongo.js.org)**
 - **[GitHub](https://github.com/sanikava/opmongo)**
 
 
 
-<center><h1>Functions list</h1></center>
-- db.set()
-- db.get()
-- db.push()
-- db.pull()
-- db.fetch()
-- db.all()
-- db.delete()
-- db.add()
-- db.subtract()
-- db.exists()
-- db.has()
-- db.fetchAll()
-- db.deleteAll()
-- db.startsWith()
-- db.createModel()
-- db.updateModel()
-- .toString()
-- db.currentModelName()
-- db.name()
-- db.math() //it's important say this math is made for all math expresions math(key, operator, value)
-- 
+<center><h1>Functions list - </h1></center>
+- db.set() → db.set() is for adding data like: tables. <br>
+- db.get() <br>
+- db.push() → db.push() is for array or you can add 2 or more in one. <br>
+- db.pull() <br>
+- db.fetch() <br>
+- db.all() <br>
+- db.delete() <br>
+- db.add() <br>
+- db.subtract() <br>
+- db.exists() <br>
+- db.has() <br>
+- db.fetchAll() <br>
+- db.deleteAll() <br>
+- db.startsWith() <br>
+- db.createModel() <br>
+- db.updateModel() <br>
+- .toString() <br>
+- db.currentModelName() <br>
+- db.name() <br>
+- db.math() → it's important say this math is made for all math expresions math(key, operator, value). <br>
