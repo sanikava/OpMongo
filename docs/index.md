@@ -46,20 +46,25 @@ db.get("foo").then(console.log);
 const { OP } = require("opmongo");
 const db = new OP("mongodb://localhost/SanikavaDB");
 
-db.set("player.name","Sanikava") //[this is setting variable in json)]
-//-> It's for adding data like tables
+db.set("player.name","Sanikava")
+// This is for setting variable in JSON.
 
-db.add("player.points",1) //[this is adding thing to variable but remember you have to use outside of quotation marks (") or (`) ]
-//-> It's for points
+db.add("player.points",1)
+// This is for adding things to a certain variable, but remember you need to use it outside of the quotatin marks ("") or (``).
 
-db.get("player.name") //[with this you can get thing from variable in json our how many points user have.]
-//-> output (Sanikava)
+db.get("player.name")
+// This will get the data you want, 
+// For example player has the name "Sanikava" then it will send Sanikava as output.
 
-db.push("player.items","sword") //[you can add new things to array by this you can add more data in one user without removing other data]
-//-> It's for array or you can add 2 or more in one
+db.push("player.items","sword")
+// db.add("",) was used for adding a single thing, but db.push("", "") can be used for adding multiple things within a array.
 
-db.subtract("player.points",1) //[subtract value or points]
-//-> It will subtract points of user
+db.subtract("player.points",1) 
+// db.subtract("", ) is used for removing something from someone.
+
+/**
+Example of other command are listed below, you need to scroll down wards in order to get them.
+**/
 ```
 
 
@@ -73,7 +78,7 @@ db.subtract("player.points",1) //[subtract value or points]
 
 <center><h1>Functions list - </h1></center>
 - db.set() → db.set() is for adding data like: tables. <br>
-- db.get() <br>
+- db.get() → db.get() is used for getting a Data. <br>
 - db.push() → db.push() is for array or you can add 2 or more in one. <br>
 - db.pull() <br>
 - db.fetch() <br>
