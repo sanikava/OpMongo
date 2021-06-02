@@ -7,7 +7,7 @@ SanikavaDB Mongo wrapper for new coders.
 **[OpMongo Documentation](https://opmongo.js.org)**
 
 # What is OpMongo?
-- OpMongo is a new Mongo wrapper maded for people who are new to coding. OpMongo is maded in a way so people can use it easily without any confusion, and even if you have any confusion you can ask about it in our Discord Support Server. 
+- OpMongo is a new Mongo wrapper made for people who are new to coding. OpMongo is made in a way so people can use it easily without any confusion, and even if you have any confusion you can ask about it in our Discord Support Server. 
 
 # Features -
 - Beginner friendly
