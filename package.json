@@ -12,6 +12,6 @@
     "license": "ISC",
     "dependencies": {
         "lodash": "^4.17.21",
-        "mongoose": "5.11.15"
+        "mongoose": "5.13.15"
     }
 }
